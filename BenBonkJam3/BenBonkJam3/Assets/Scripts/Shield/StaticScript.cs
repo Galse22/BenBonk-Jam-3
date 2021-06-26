@@ -19,6 +19,4 @@ public class StaticScript : MonoBehaviour
     {
         thisGO.transform.localPosition = defaultPos;
     }
-
-    // CinemachineShake.Instance.ShakeCamera (sIntensity, sTime);
 }
