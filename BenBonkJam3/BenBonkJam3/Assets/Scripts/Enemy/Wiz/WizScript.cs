@@ -20,6 +20,9 @@ public class WizScript : MonoBehaviour
     public float forceBullet2;
     Vector2 direction;
     public GameObject shootWizSFX;
+
+    public int valBullet2;
+    float otherAngle;
     void OnEnable()
     {
         thisTransform = GetComponent<Transform>();
@@ -50,17 +53,23 @@ public class WizScript : MonoBehaviour
     {
         yield return new WaitForSeconds(timeBtwShooting);
         valRand = Random.Range(0, 100);
-        if(valRand > 0)
+        if(valRand > valBullet2)
         {
             GameObject bullet = ObjectPooler.SharedInstance.GetPooledObject("WBullet1");
             bullet.transform.position = placeToShoot.position;
             bullet.SetActive(true);
-            direction = (thisTransform.position - transformPlayer.position).normalized;
+            direction = (placeToShoot.position - transformPlayer.position).normalized;
             bullet.GetComponent<Rigidbody2D>().AddForce(direction * - forceBullet1 * 10);
         }
         else
         {
-            // ...
+            GameObject bullet = ObjectPooler.SharedInstance.GetPooledObject("WBullet2");
+            bullet.transform.position = placeToShoot.position;
+            bullet.SetActive(true);
+            direction = (placeToShoot.position - transformPlayer.position).normalized;
+            otherAngle = Mathf.Atan2 (placeToShoot.position.y - transformPlayer.position.y, placeToShoot.position.x - transformPlayer.position.x) * Mathf.Rad2Deg;
+            bullet.transform.eulerAngles = new Vector3(0, 0, otherAngle);
+            bullet.GetComponent<Rigidbody2D>().AddForce(direction * - forceBullet2 * 10);
         }
         GameObject goInstantiated = Instantiate(shootWizSFX, transform.position, Quaternion.identity);
         goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
