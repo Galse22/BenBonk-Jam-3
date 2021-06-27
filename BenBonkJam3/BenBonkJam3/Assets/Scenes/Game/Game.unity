@@ -659,6 +659,7 @@ MonoBehaviour:
   fAngle: 0
   rbGO: {fileID: 1239578176}
   canMove: 1
+  sfxFootstep: {fileID: 2793748628065730268, guid: 49a536dde7d60504cb53eda6947001c8, type: 3}
 --- !u!95 &695894115
 Animator:
   serializedVersion: 3
@@ -901,7 +902,8 @@ MonoBehaviour:
   sTimeLanded: 0.15
   sIntensitySHOT: 10
   sTimeSHOT: 0.2
-  catchBulletSFX: {fileID: 0}
+  catchBulletSFX: {fileID: 2793748628065730268, guid: b6d02ee1d46b01348949c293df020c88, type: 3}
+  shootSFX: {fileID: 2793748628065730268, guid: 60dc88435035bce4e9e381168eb67cbc, type: 3}
 --- !u!1 &1083983950
 GameObject:
   m_ObjectHideFlags: 0

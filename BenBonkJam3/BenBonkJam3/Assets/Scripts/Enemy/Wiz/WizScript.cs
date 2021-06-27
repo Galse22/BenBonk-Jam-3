@@ -18,7 +18,8 @@ public class WizScript : MonoBehaviour
 
     public float forceBullet1;
     public float forceBullet2;
-    public Vector2 direction;
+    Vector2 direction;
+    public GameObject shootWizSFX;
     void OnEnable()
     {
         thisTransform = GetComponent<Transform>();
@@ -61,7 +62,8 @@ public class WizScript : MonoBehaviour
         {
             // ...
         }
-        
+        GameObject goInstantiated = Instantiate(shootWizSFX, transform.position, Quaternion.identity);
+        goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
         StartCoroutine("ShooterCoroutine");
     }
 }

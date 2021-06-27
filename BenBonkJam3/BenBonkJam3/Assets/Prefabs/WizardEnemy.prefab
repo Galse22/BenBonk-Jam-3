@@ -347,7 +347,7 @@ MonoBehaviour:
   placeToShoot: {fileID: 1738672297416664319}
   forceBullet1: 30
   forceBullet2: 0
-  direction: {x: 0, y: 0}
+  shootWizSFX: {fileID: 2793748628065730268, guid: fe0098b62e460674bbd9874db2a9905f, type: 3}
 --- !u!114 &1937543608148540741
 MonoBehaviour:
   m_ObjectHideFlags: 0

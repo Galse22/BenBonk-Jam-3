@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool canMove;
 
+    public GameObject sfxFootstep;
+
     void Awake() {
         anim = GetComponent<Animator>();
         goPlayer = this.gameObject;
@@ -92,5 +94,11 @@ public class PlayerMovement : MonoBehaviour
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1;
         transform.localScale = Scaler;
+    }
+
+    public void CreateFootstep()
+    {
+        GameObject footstepSFXInstatiated = Instantiate(sfxFootstep, this.gameObject.transform.position, Quaternion.identity);
+        footstepSFXInstatiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
     }
 }
