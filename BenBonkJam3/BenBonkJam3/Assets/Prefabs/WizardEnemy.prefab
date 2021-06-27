@@ -344,8 +344,9 @@ MonoBehaviour:
   aIPath: {fileID: 8656480455068311022}
   anim: {fileID: 8656480454776405631}
   placeToShoot: {fileID: 1738672297416664319}
-  forceBullet1: 5
+  forceBullet1: 10
   forceBullet2: 0
+  direction: {x: 0, y: 0}
 --- !u!1 &8656480455488148342
 GameObject:
   m_ObjectHideFlags: 0

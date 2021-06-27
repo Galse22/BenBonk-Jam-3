@@ -6,6 +6,7 @@ using Pathfinding;
 public class WizScript : MonoBehaviour
 {
     Transform transformPlayer;
+    Transform thisTransform;
     public AIDestinationSetter aIDestinationSettler;
     public float timeBtwShooting;
     public float stoppingDistance;
@@ -17,8 +18,10 @@ public class WizScript : MonoBehaviour
 
     public float forceBullet1;
     public float forceBullet2;
+    public Vector2 direction;
     void OnEnable()
     {
+        thisTransform = GetComponent<Transform>();
         transformPlayer = GameObject.FindWithTag("Player").GetComponent<Transform>();
         aIDestinationSettler.target = transformPlayer;
         StartCoroutine("ShooterCoroutine");
@@ -51,7 +54,8 @@ public class WizScript : MonoBehaviour
             GameObject bullet = ObjectPooler.SharedInstance.GetPooledObject("WBullet1");
             bullet.transform.position = placeToShoot.position;
             bullet.SetActive(true);
-            bullet.GetComponent<Rigidbody2D>().AddForce(Vector3.up * forceBullet1);
+            direction = (thisTransform.position - transformPlayer.position).normalized;
+            bullet.GetComponent<Rigidbody2D>().AddForce(direction * - forceBullet1 * 10);
         }
         else
         {
