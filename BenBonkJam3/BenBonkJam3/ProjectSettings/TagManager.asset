@@ -11,6 +11,7 @@ TagManager:
   - BulletOne
   - BulletTwo
   - Spikes
+  - MagnetSFX
   layers:
   - Default
   - TransparentFX

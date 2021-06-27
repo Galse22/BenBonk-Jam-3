@@ -21,6 +21,8 @@ public class SouthPoleScript : MonoBehaviour
 
     public GameObject catchBulletSFX;
     public GameObject shootSFX;
+
+    bool hasBullets;
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "BulletOne")
@@ -46,12 +48,13 @@ public class SouthPoleScript : MonoBehaviour
                 CinemachineShake.Instance.ShakeCamera (sIntensityLanded, sTimeLanded);
                 GameObject goInstantiated = Instantiate(catchBulletSFX, transform.position, Quaternion.identity);
                 goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+                hasBullets = true;
             }
         }
     }
 
     private void Update() {
-        if (Input.GetButtonDown("Fire1") && goList[0] != null)
+        if (Input.GetButtonDown("Fire1") && hasBullets)
         {
             foreach(GameObject go in goList)
             {
@@ -69,6 +72,7 @@ public class SouthPoleScript : MonoBehaviour
             CinemachineShake.Instance.ShakeCamera (sIntensitySHOT, sTimeSHOT);
             GameObject goInstantiated = Instantiate(shootSFX, transform.position, Quaternion.identity);
             goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+            hasBullets = false;
         }
     }
 

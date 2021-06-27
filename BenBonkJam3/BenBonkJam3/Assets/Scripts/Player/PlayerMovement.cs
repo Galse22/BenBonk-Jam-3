@@ -99,6 +99,6 @@ public class PlayerMovement : MonoBehaviour
     public void CreateFootstep()
     {
         GameObject footstepSFXInstatiated = Instantiate(sfxFootstep, this.gameObject.transform.position, Quaternion.identity);
-        footstepSFXInstatiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+        footstepSFXInstatiated.GetComponent<AudioSource>().pitch = Random.Range(0.4f, 1.2f);
     }
 }
