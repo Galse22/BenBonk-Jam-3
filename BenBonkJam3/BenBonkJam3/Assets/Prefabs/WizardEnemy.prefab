@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8656480454776405629}
   - component: {fileID: 8656480454776405628}
-  - component: {fileID: 8656480454776405630}
   - component: {fileID: 8656480454776405631}
+  - component: {fileID: 2560316523738367445}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: Wiz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656480454776405603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.168, z: 0}
+  m_LocalPosition: {x: 0.112, y: 0.088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8656480455488148343}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 7970909259963184619, guid: e4b897982ee740041873484b6c6b93bb, type: 3}
+  m_Sprite: {fileID: 6305898484411857445, guid: 5b9851a611f4c3e4a8db769f5cc24da9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,7 +85,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8656480454776405630
+--- !u!95 &8656480454776405631
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656480454776405603}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18479c01bb34a8b47a9d154907a6165a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2560316523738367445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,25 +117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aIPath: {fileID: 8656480455068311022}
---- !u!95 &8656480454776405631
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656480454776405603}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b7a3e7315c02ea409c2ce8da4d66456, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8656480455068311020
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,11 +130,10 @@ GameObject:
   - component: {fileID: 8656480455068311022}
   - component: {fileID: 8656480455068311016}
   - component: {fileID: 8656480455068311017}
-  - component: {fileID: 8656480455068311018}
   - component: {fileID: 8656480455068311012}
   - component: {fileID: 8656480455068311019}
   m_Layer: 0
-  m_Name: SlimeEnemy
+  m_Name: WizardEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656480455068311020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.56, y: 0, z: 0}
+  m_LocalPosition: {x: 7.672, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8656480454776405629}
@@ -196,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 2
-  radius: 0.7
+  radius: 0.78
   height: 1
   repathRate: 0.5
   canSearch: 1
@@ -246,7 +245,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.015755892}
+  m_Offset: {x: -0.015127897, y: 0.025332987}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -257,23 +256,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0880034}
+  m_Size: {x: 0.99042654, y: 1.2320226}
   m_EdgeRadius: 0
---- !u!114 &8656480455068311018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656480455068311020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55767e9826edf5e49bdacf2d1273d214, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeBtwNullF: 0.35
-  timeToSet: 0.25
-  aIDestinationSettler: {fileID: 8656480455068311016}
 --- !u!50 &8656480455068311012
 Rigidbody2D:
   serializedVersion: 4
@@ -320,7 +304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8656480455488148343}
   - component: {fileID: 8656480455488148336}
-  - component: {fileID: 8656480455488148337}
+  - component: {fileID: 1113238418536122077}
   m_Layer: 0
   m_Name: DmgCol
   m_TagString: Untagged
@@ -336,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656480455488148342}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.094, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8656480454776405629}
@@ -368,7 +352,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.10147524, y: 0.09386921}
   m_EdgeRadius: 0
---- !u!114 &8656480455488148337
+--- !u!114 &1113238418536122077
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -377,6 +361,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8656480455488148342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db162ff9f1964a4890fae96d1de0963, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cf0d2a01107d994983c5dc4bfa3d3e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

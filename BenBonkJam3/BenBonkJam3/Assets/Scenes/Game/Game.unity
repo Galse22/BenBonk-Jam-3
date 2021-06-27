@@ -875,10 +875,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsToPool:
-  - amountToPool: 5
+  - amountToPool: 10
     objectToPool: {fileID: 8656480455068311020, guid: f10be1ebb36fc094c97b9af2ae2ae5f2, type: 3}
     shouldExpand: 1
     nameUUID: SlimeEnemy
+  - amountToPool: 5
+    objectToPool: {fileID: 8656480455068311020, guid: eaf3d7d7e1ab3e4459dc733152c65d65, type: 3}
+    shouldExpand: 1
+    nameUUID: WizardEnemy
   pooledObjects: []
 --- !u!114 &1083983954
 MonoBehaviour:

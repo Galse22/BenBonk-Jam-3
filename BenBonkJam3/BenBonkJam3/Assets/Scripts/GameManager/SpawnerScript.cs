@@ -22,9 +22,10 @@ public class SpawnerScript : MonoBehaviour
         yield return new WaitForSeconds(timeBtwEnemy);
         randomHouse = Random.Range(0, maxHouse);
         val = Random.Range(0, 100);
-        if(val <= 40)
+        Debug.Log(val);
+        if(val <= 45)
         {
-            enemySpawned = ObjectPooler.SharedInstance.GetPooledObject("SlimeEnemy");
+            enemySpawned = ObjectPooler.SharedInstance.GetPooledObject("WizardEnemy");
         }
         else
         {
