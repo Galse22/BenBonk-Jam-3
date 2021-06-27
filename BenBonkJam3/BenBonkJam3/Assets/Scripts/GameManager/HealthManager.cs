@@ -38,5 +38,15 @@ public class HealthManager : MonoBehaviour
         {
             enemy.SetActive(false);
         }
+        GameObject[] allBullets1 = GameObject.FindGameObjectsWithTag("BulletOne");
+        foreach(GameObject bullet1 in allEnemies)
+        {
+            bullet1.SetActive(false);
+        }
+        GameObject[] allBullets2 = GameObject.FindGameObjectsWithTag("BulletTwo");
+        foreach(GameObject bullet2 in allEnemies)
+        {
+            bullet2.SetActive(false);
+        }
     }
 }

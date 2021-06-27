@@ -12,6 +12,8 @@ public class SpawnerScript : MonoBehaviour
     int maxHouse;
     int val;
 
+    public int wizVal;
+
     GameObject enemySpawned;
     private void Start() {
         maxHouse = housesPlaces.Length;
@@ -22,7 +24,7 @@ public class SpawnerScript : MonoBehaviour
         yield return new WaitForSeconds(timeBtwEnemy);
         randomHouse = Random.Range(0, maxHouse);
         val = Random.Range(0, 100);
-        if(val <= 45)
+        if(val <= wizVal)
         {
             enemySpawned = ObjectPooler.SharedInstance.GetPooledObject("WizardEnemy");
         }

@@ -164,7 +164,8 @@ GameObject:
   - component: {fileID: 8656480455068311012}
   - component: {fileID: 8656480455068311019}
   - component: {fileID: 8979397992766588004}
-  m_Layer: 0
+  - component: {fileID: 1937543608148540741}
+  m_Layer: 11
   m_Name: WizardEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afdfaf63ae694e74f88801145f40e4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnitude: 1
+  magnitude: 0.2
   sIntensity: 2
   sTime: 0.1
 --- !u!114 &8979397992766588004
@@ -339,14 +340,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aIDestinationSettler: {fileID: 8656480455068311016}
-  timeBtwShooting: 3
+  timeBtwShooting: 5
   stoppingDistance: 5
   aIPath: {fileID: 8656480455068311022}
   anim: {fileID: 8656480454776405631}
   placeToShoot: {fileID: 1738672297416664319}
-  forceBullet1: 10
+  forceBullet1: 30
   forceBullet2: 0
   direction: {x: 0, y: 0}
+--- !u!114 &1937543608148540741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656480455068311020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b0e325dcad27254282275b7b305efc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathGO: {fileID: 2793748628065730268, guid: b72a94e05cc5f5f4b9720b81ce5ed520, type: 3}
 --- !u!1 &8656480455488148342
 GameObject:
   m_ObjectHideFlags: 0
