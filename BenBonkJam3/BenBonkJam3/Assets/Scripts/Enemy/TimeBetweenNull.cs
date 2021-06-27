@@ -16,6 +16,11 @@ public class TimeBetweenNull : MonoBehaviour
         StartCoroutine("NullifyCoroutine");
     }
 
+    private void OnDisable() {
+        aIDestinationSettler.target = transformPlayer;
+        StopAllCoroutines();
+    }
+
     IEnumerator NullifyCoroutine()
     {
         yield return new WaitForSeconds(timeBtwNullF);
