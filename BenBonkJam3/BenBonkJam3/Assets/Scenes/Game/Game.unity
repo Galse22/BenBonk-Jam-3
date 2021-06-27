@@ -883,6 +883,10 @@ MonoBehaviour:
     objectToPool: {fileID: 8656480455068311020, guid: eaf3d7d7e1ab3e4459dc733152c65d65, type: 3}
     shouldExpand: 1
     nameUUID: WizardEnemy
+  - amountToPool: 5
+    objectToPool: {fileID: 4877781127582476228, guid: 712bd4424f936f74e82c6ccd08084c98, type: 3}
+    shouldExpand: 1
+    nameUUID: WBullet1
   pooledObjects: []
 --- !u!114 &1083983954
 MonoBehaviour:
