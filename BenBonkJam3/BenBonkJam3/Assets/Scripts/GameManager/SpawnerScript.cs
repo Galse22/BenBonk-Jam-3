@@ -15,6 +15,19 @@ public class SpawnerScript : MonoBehaviour
     public int wizVal;
 
     GameObject enemySpawned;
+
+    public Transform healthBar;
+    public Transform player;
+    float healthDivided;
+    public  float enemiesNeeded = 50;
+    float currentEnemies = 1;
+
+    bool activated;
+    public GameObject sfxPortal;
+
+    public float sIntensity;
+    public float sTime;
+
     private void Start() {
         maxHouse = housesPlaces.Length;
         StartCoroutine("SpawnEnemy");
@@ -43,6 +56,15 @@ public class SpawnerScript : MonoBehaviour
         if(timeBtwEnemy < minTime)
         {
             timeBtwEnemy = minTime;
+        }
+        currentEnemies++;
+        healthDivided = 1 - (currentEnemies / enemiesNeeded);
+        healthBar.localScale = new Vector3 (1, healthDivided);
+        if(currentEnemies >= enemiesNeeded && !activated)
+        {
+            activated = true;
+            Instantiate(sfxPortal, player.position, Quaternion.identity);
+            CinemachineShake.Instance.ShakeCamera (sIntensity, sTime); 
         }
     }
 }

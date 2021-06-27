@@ -161,7 +161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5783000297320424622, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
+  m_Sprite: {fileID: 8307645489494828222, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -325,16 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageArray:
-  - {fileID: 5783000297320424622, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 904245453019374149, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: -2853831961324099001, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 7856001079534269249, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 7875446014549919621, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 959993319305220898, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 4927046944446209768, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 4564367643453617410, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 4297277177241819733, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
-  - {fileID: 7119640135770916291, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
+  - {fileID: 8307645489494828222, guid: 09c5b2da9f0728146b68559b1a1c5a9b, type: 3}
   baseImage: {fileID: 470714118}
   sceneNumber: 1
   buttonSFX: {fileID: 4309537872299780941, guid: 0acaca0cb95f59745903605e685344a5, type: 3}
@@ -663,7 +654,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 594030760}
         m_TargetAssemblyTypeName: CutsceneManager, Assembly-CSharp
-        m_MethodName: ChangeImage
+        m_MethodName: ActualLoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -711,60 +702,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997178308}
   m_CullTransparentMesh: 0
---- !u!1001 &3800572737241723085
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949718, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800572736558949719, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}
-      propertyPath: m_Name
-      value: MenuMusic1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d844660b6630f234fa8eb930d44bb9c1, type: 3}

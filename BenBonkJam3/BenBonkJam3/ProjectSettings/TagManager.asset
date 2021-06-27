@@ -12,6 +12,7 @@ TagManager:
   - BulletTwo
   - Spikes
   - MagnetSFX
+  - MenuMusic
   layers:
   - Default
   - TransparentFX

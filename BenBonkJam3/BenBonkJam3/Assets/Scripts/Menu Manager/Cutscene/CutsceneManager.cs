@@ -28,7 +28,7 @@ public class CutsceneManager : MonoBehaviour
         }
     }
 
-    void ActualLoadScene()
+    public void ActualLoadScene()
     {
         SceneManager.LoadScene(sceneNumber);
     }
