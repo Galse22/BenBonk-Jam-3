@@ -2120,9 +2120,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e023eeb381a77914db21f1ae5e67a8ed, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b6a90643e1c8a9f4395298db7e7a62d3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3221,7 +3221,7 @@ MonoBehaviour:
   wizVal: 40
   healthBar: {fileID: 1311221516}
   player: {fileID: 695894112}
-  enemiesNeeded: 10
+  enemiesNeeded: 12
   sfxPortal: {fileID: 2793748628065730268, guid: a9858e99b27aba041bfbf048f6b8ff68, type: 3}
   sIntensity: 20
   sTime: 0.5

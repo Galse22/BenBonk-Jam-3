@@ -6,15 +6,33 @@ using Pathfinding;
 public class EnemyGFX : MonoBehaviour
 {
     public AIPath aIPath;
+    public TimeBetweenNull timeBetweenNull;
     void Update()
     {
-        if(aIPath.desiredVelocity.x >= 0.01f)
+        if(timeBetweenNull != null)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            if(timeBetweenNull.stunned == false)
+            {
+                if(aIPath.desiredVelocity.x >= 0.01f)
+                {
+                    transform.localScale = new Vector3(1f, 1f, 1f);
+                }
+                else if(aIPath.desiredVelocity.x <= -0.01f)
+                {
+                    transform.localScale = new Vector3(-1f, 1f, 1f);
+                }
+            }
         }
-        else if(aIPath.desiredVelocity.x <= -0.01f)
+        else
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            if(aIPath.desiredVelocity.x >= 0.01f)
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            else if(aIPath.desiredVelocity.x <= -0.01f)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
         }
     }
 }

@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aIPath: {fileID: 8656480455068311022}
+  aIDestinationSetter: {fileID: 8656480455068311016}
 --- !u!1 &8656480455068311020
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +328,9 @@ MonoBehaviour:
   magnitude: 0.2
   sIntensity: 2
   sTime: 0.1
+  stunnedTime: 0.75
+  aIDestinationSettler: {fileID: 8656480455068311016}
+  timeBetweenNull: {fileID: 0}
 --- !u!114 &8979397992766588004
 MonoBehaviour:
   m_ObjectHideFlags: 0

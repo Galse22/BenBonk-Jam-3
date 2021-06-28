@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aIPath: {fileID: 8656480455068311022}
+  timeBetweenNull: {fileID: 8656480455068311018}
 --- !u!95 &8656480454776405631
 Animator:
   serializedVersion: 3
@@ -275,6 +276,10 @@ MonoBehaviour:
   timeBtwNullF: 0.35
   timeToSet: 0.25
   aIDestinationSettler: {fileID: 8656480455068311016}
+  aIPath: {fileID: 8656480455068311022}
+  stunned: 0
+  animator: {fileID: 8656480454776405631}
+  slimeTransform: {fileID: 8656480454776405629}
 --- !u!50 &8656480455068311012
 Rigidbody2D:
   serializedVersion: 4
@@ -311,6 +316,9 @@ MonoBehaviour:
   magnitude: 2
   sIntensity: 2
   sTime: 0.1
+  stunnedTime: 0.75
+  aIDestinationSettler: {fileID: 8656480455068311016}
+  timeBetweenNull: {fileID: 8656480455068311018}
 --- !u!114 &8413744974537520090
 MonoBehaviour:
   m_ObjectHideFlags: 0
