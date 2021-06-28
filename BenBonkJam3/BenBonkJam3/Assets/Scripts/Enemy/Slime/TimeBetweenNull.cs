@@ -18,6 +18,10 @@ public class TimeBetweenNull : MonoBehaviour
     bool looking;
 
     public Transform slimeTransform;
+
+    public GameObject circleA;
+
+    public Vector3 v3;
     void OnEnable()
     {
         transformPlayer = GameObject.FindWithTag("Player").GetComponent<Transform>();
@@ -45,10 +49,16 @@ public class TimeBetweenNull : MonoBehaviour
             {
                 slimeTransform.localScale = new Vector3(-1f, 1f, 1f);
             }
+            circleA.SetActive(true);
+            if(v3 != Vector3.zero)
+            {
+                transform.position = v3;
+            }
         }
         else
         {
             animator.SetBool("walking", true);
+            circleA.SetActive(false);
         }
     }
 

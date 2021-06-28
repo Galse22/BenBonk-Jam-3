@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: 70b100f37e15baf408a04dff30f80738
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8537071076002801487
+    second: CircleAB-Sheet_0
+  - first:
+      213: -2442071060898075554
+    second: CircleAB-Sheet_1
+  - first:
+      213: 1102465615042731183
+    second: CircleAB-Sheet_2
+  - first:
+      213: 432503971157228632
+    second: CircleAB-Sheet_3
+  - first:
+      213: 384655571902478772
+    second: CircleAB-Sheet_4
+  - first:
+      213: 8637685172487728977
+    second: CircleAB-Sheet_5
+  - first:
+      213: 5070899324442885854
+    second: CircleAB-Sheet_6
+  - first:
+      213: 1280969111649253769
+    second: CircleAB-Sheet_7
+  - first:
+      213: -7458613301713421582
+    second: CircleAB-Sheet_8
+  - first:
+      213: 6403382683866387367
+    second: CircleAB-Sheet_9
+  - first:
+      213: 4172928328909913158
+    second: CircleAB-Sheet_10
+  - first:
+      213: 4398300834085264158
+    second: CircleAB-Sheet_11
+  - first:
+      213: -6889246697766815828
+    second: CircleAB-Sheet_12
+  - first:
+      213: -6848679976805836863
+    second: CircleAB-Sheet_13
+  - first:
+      213: -3227505026429720794
+    second: CircleAB-Sheet_14
+  - first:
+      213: 1549441816278299616
+    second: CircleAB-Sheet_15
+  - first:
+      213: 62124230774199904
+    second: CircleAB-Sheet_16
+  - first:
+      213: 1182489670760297391
+    second: CircleAB-Sheet_17
+  - first:
+      213: 3442865305792969244
+    second: CircleAB-Sheet_18
+  - first:
+      213: -2879161822108993967
+    second: CircleAB-Sheet_19
+  - first:
+      213: -5798603046674932528
+    second: CircleAB-Sheet_20
+  - first:
+      213: -3089043284975822859
+    second: CircleAB-Sheet_21
+  - first:
+      213: 6590434393455516058
+    second: CircleAB-Sheet_22
+  - first:
+      213: -5634881528413677016
+    second: CircleAB-Sheet_23
+  - first:
+      213: 5947113850695303934
+    second: CircleAB-Sheet_24
+  - first:
+      213: 2255612541084694244
+    second: CircleAB-Sheet_25
+  - first:
+      213: -6371651273410852135
+    second: CircleAB-Sheet_26
+  - first:
+      213: -3176177710854623802
+    second: CircleAB-Sheet_27
+  - first:
+      213: 815687522580742517
+    second: CircleAB-Sheet_28
+  - first:
+      213: 6398385799737747336
+    second: CircleAB-Sheet_29
+  - first:
+      213: -6735109971948811504
+    second: CircleAB-Sheet_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircleAB-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b85794761b368980800000000000000
+      internalID: -8537071076002801487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 870
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ca8ea0f450c1ed0800000000000000
+      internalID: -2442071060898075554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 870
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac54b1c2aebc4f00800000000000000
+      internalID: 1102465615042731183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 870
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cb5ccf110900600800000000000000
+      internalID: 432503971157228632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 870
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b93f146432965500800000000000000
+      internalID: 384655571902478772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f2ac366e83fd770800000000000000
+      internalID: 8637685172487728977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 725
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edebf2d91147f5640800000000000000
+      internalID: 5070899324442885854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 725
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f914ce9ae6c110800000000000000
+      internalID: 1280969111649253769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 725
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa3e5238bead7890800000000000000
+      internalID: -7458613301713421582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 725
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a35eb8df926dd850800000000000000
+      internalID: 6403382683866387367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf6ddb43839e930800000000000000
+      internalID: 4172928328909913158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 580
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bd4fe2e47e90d30800000000000000
+      internalID: 4398300834085264158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 580
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7739111aa7460a0800000000000000
+      internalID: -6889246697766815828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 580
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c75822d8d994f0a0800000000000000
+      internalID: -6848679976805836863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 580
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6276edc47499533d0800000000000000
+      internalID: -3227505026429720794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e377636f19b08510800000000000000
+      internalID: 1549441816278299616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 435
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0669d33a8a5bcd000800000000000000
+      internalID: 62124230774199904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 435
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa37c38271c096010800000000000000
+      internalID: 1182489670760297391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 435
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a7e4921c387cf20800000000000000
+      internalID: 3442865305792969244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 435
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156b356c3992b08d0800000000000000
+      internalID: -2879161822108993967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc51795049378fa0800000000000000
+      internalID: -5798603046674932528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 290
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7d53faf738125d0800000000000000
+      internalID: -3089043284975822859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 290
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99de69c92de57b50800000000000000
+      internalID: 6590434393455516058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 290
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1e73da11ecc1b0800000000000000
+      internalID: -5634881528413677016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 290
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2cf7db984688250800000000000000
+      internalID: 5947113850695303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6f446c7ab8d4f10800000000000000
+      internalID: 2255612541084694244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4eafdce85397a0800000000000000
+      internalID: -6371651273410852135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 145
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd2ff83333fbe3d0800000000000000
+      internalID: -3176177710854623802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 145
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571c427ea77e15b00800000000000000
+      internalID: 815687522580742517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 145
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a5491cf1abc850800000000000000
+      internalID: 6398385799737747336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleAB-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bccc62a251882a0800000000000000
+      internalID: -6735109971948811504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
