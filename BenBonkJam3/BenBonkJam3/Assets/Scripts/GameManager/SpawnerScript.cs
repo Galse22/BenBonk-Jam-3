@@ -27,6 +27,7 @@ public class SpawnerScript : MonoBehaviour
 
     public float sIntensity;
     public float sTime;
+    public PortalScript portalScript;
 
     private void Start() {
         maxHouse = housesPlaces.Length;
@@ -59,10 +60,15 @@ public class SpawnerScript : MonoBehaviour
         }
         currentEnemies++;
         healthDivided = 1 - (currentEnemies / enemiesNeeded);
+        if(healthDivided < 0)
+        {
+            healthDivided = 0;
+        }
         healthBar.localScale = new Vector3 (1, healthDivided);
         if(currentEnemies >= enemiesNeeded && !activated)
         {
             activated = true;
+            portalScript.pEnabled = true;
             Instantiate(sfxPortal, player.position, Quaternion.identity);
             CinemachineShake.Instance.ShakeCamera (sIntensity, sTime); 
         }

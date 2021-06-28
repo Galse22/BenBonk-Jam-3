@@ -29,4 +29,13 @@ public class BulletOne : MonoBehaviour
             CinemachineShake.Instance.ShakeCamera (sIntensity, sTime); 
         }
     }
+
+    private void OnCollisionExit2D(Collision2D col) {
+        if(col.gameObject.tag == "Enemy" && damageEnemies)
+        {
+            EnemyHealthManager enemyHealthManager = col.gameObject.GetComponent<EnemyHealthManager>();
+            enemyHealthManager.Die();
+            CinemachineShake.Instance.ShakeCamera (sIntensity, sTime); 
+        }
+    }
 }

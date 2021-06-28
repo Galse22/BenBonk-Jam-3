@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         v3Pos = Camera.main.ScreenToWorldPoint(v3Pos);
         v3Pos = v3Pos - goPlayer.transform.position;
         fAngle = Mathf.Atan2 (v3Pos.y, v3Pos.x) * Mathf.Rad2Deg - 90f;
-        if (fAngle < 0.0f) fAngle += 360.0f;
+        //if (fAngle < 0.0f) fAngle += 360.0f;
         rb.rotation = fAngle;
         if(fAngle >= 0 && fAngle <= 180)
         {

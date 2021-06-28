@@ -13,6 +13,8 @@ public class HealthManager : MonoBehaviour
     public float sTime;
 
     public GameObject loseTXT;
+    public Transform transformPlayer;
+    public GameObject takeDmgSFX;
 
     private void Start() {
         Time.timeScale = 1f;
@@ -20,6 +22,7 @@ public class HealthManager : MonoBehaviour
     public void TakeDamagePlayer()
     {
         health--;
+        Instantiate(takeDmgSFX, transformPlayer.position, Quaternion.identity);
         if(health == 2)
         {
             RemoveAllEnemies();
