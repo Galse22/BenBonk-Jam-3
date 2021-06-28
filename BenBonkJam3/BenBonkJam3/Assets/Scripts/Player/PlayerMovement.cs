@@ -72,6 +72,8 @@ public class PlayerMovement : MonoBehaviour
         v3Pos = v3Pos - goPlayer.transform.position;
         fAngle = Mathf.Atan2 (v3Pos.y, v3Pos.x) * Mathf.Rad2Deg - 90f;
         otherFangle = fAngle;
+
+        // meanest bug ever
         if (otherFangle < 0.0f) otherFangle += 360.0f;
         rb.rotation = fAngle;
         if(otherFangle >= 0 && otherFangle <= 180)

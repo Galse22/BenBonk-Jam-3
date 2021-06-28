@@ -3221,7 +3221,7 @@ MonoBehaviour:
   wizVal: 40
   healthBar: {fileID: 1311221516}
   player: {fileID: 695894112}
-  enemiesNeeded: 13
+  enemiesNeeded: 10
   sfxPortal: {fileID: 2793748628065730268, guid: a9858e99b27aba041bfbf048f6b8ff68, type: 3}
   sIntensity: 20
   sTime: 0.5
