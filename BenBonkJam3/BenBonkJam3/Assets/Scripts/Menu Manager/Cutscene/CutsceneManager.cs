@@ -17,7 +17,7 @@ public class CutsceneManager : MonoBehaviour
     {
         amountsButton++;
         GameObject goInstantiated = Instantiate(buttonSFX, Vector3.zero, Quaternion.identity);
-        //goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+        goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
         if(amountsButton < imageArray.Length)
         {
             baseImage.overrideSprite = imageArray[amountsButton];

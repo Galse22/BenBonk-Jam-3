@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2793748628065730270}
   - component: {fileID: 7188895506343933697}
   m_Layer: 0
-  m_Name: ShootSFX
+  m_Name: TakeDamageSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f118539909e3ab240b8558c3b14763bf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1a0ee15cf51ca6d4a9cfec5d48cf2941, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

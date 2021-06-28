@@ -29,6 +29,8 @@ public class SpawnerScript : MonoBehaviour
     public float sTime;
     public PortalScript portalScript;
 
+    public GameObject goToEnable2;
+
     private void Start() {
         maxHouse = housesPlaces.Length;
         StartCoroutine("SpawnEnemy");
@@ -70,7 +72,8 @@ public class SpawnerScript : MonoBehaviour
             activated = true;
             portalScript.pEnabled = true;
             Instantiate(sfxPortal, player.position, Quaternion.identity);
-            CinemachineShake.Instance.ShakeCamera (sIntensity, sTime); 
+            CinemachineShake.Instance.ShakeCamera (sIntensity, sTime);
+            goToEnable2.SetActive(true); 
         }
     }
 }
