@@ -50,6 +50,9 @@ public class TimeBetweenNull : MonoBehaviour
                 slimeTransform.localScale = new Vector3(-1f, 1f, 1f);
             }
             circleA.SetActive(true);
+            Animator anim = circleA.GetComponent<Animator>();
+                anim.SetBool("start", false);
+                anim.SetBool("start", true);
             if(v3 != Vector3.zero)
             {
                 transform.position = v3;

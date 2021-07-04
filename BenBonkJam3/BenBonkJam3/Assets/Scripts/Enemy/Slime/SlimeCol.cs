@@ -54,6 +54,9 @@ public class SlimeCol : MonoBehaviour
                 Invoke("InvF", stunnedTime);
                 Invoke("InvF2", stunnedTime + 0.2f);
                 circleA.SetActive(true);
+                Animator anim = circleA.GetComponent<Animator>();
+                anim.SetBool("start", false);
+                anim.SetBool("start", true);
             }
             CinemachineShake.Instance.ShakeCamera (sIntensity, sTime);
             moreFunc.RandomMagnetPSfx();
